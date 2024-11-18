@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-moz-selection {
+  color: #000;
+  background-color: #ffffff;
+}
+
+::selection {
+  color: #000;
+  background: #8de6e0;
+}
+.stroked {
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1px;
+  color: rgb(177, 177, 177);
+  -webkit-font-smoothing: antialiased;
+}
