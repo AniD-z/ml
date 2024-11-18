@@ -140,12 +140,31 @@ export default function StudentInfoForm() {
                   onChange={(e) => setFormData(prev => ({ ...prev, careerAspiration: e.target.value as string }))}
                   label="Career Aspiration"
                 >
-                  <MenuItem value="science">Science</MenuItem>
-                  <MenuItem value="engineering">Engineering</MenuItem>
-                  <MenuItem value="medicine">Medicine</MenuItem>
+                  <MenuItem value="science">Accountant</MenuItem>
+                  <MenuItem value="engineering">Artist</MenuItem>
+                  <MenuItem value="medicine">Banker</MenuItem>
                   <MenuItem value="arts">Arts</MenuItem>
-                  <MenuItem value="business">Business</MenuItem>
-                  <MenuItem value="other">Other</MenuItem>
+                  <MenuItem value="business">Business Owner</MenuItem>
+                  <MenuItem value="other">Construction Engineer</MenuItem>
+                  <MenuItem value="arts">Designer</MenuItem>
+                  <MenuItem value="arts">Doctor</MenuItem>
+                  <MenuItem value="arts">Game Developer</MenuItem>
+                  <MenuItem value="arts">Government Officer</MenuItem>
+                  <MenuItem value="arts">Real Estate Developer</MenuItem>
+                  <MenuItem value="arts">Scientist</MenuItem>
+                  <MenuItem value="arts">Lawyer</MenuItem>
+                  <MenuItem value="arts">Software Engineer</MenuItem>
+                  <MenuItem value="arts">Stock Investor</MenuItem>
+                  <MenuItem value="arts">Writer</MenuItem>
+                  <MenuItem value="arts">Teacher</MenuItem>
+                  <MenuItem value="arts">Unknown</MenuItem>
+
+
+
+
+
+
+
                 </Select>
               </FormControl>
             </Grid>
